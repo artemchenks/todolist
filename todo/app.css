@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Thin", sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    font-size: 44px;
+    padding: 20px;
+}
+
+main {
+    width: 90%;
+    max-width: 930px;
+    margin: 20px auto;
+}
+
+.addTODO {
+    display: flex;
+}
+
+
+.addTODO * {
+    width: 20%;
+}
+
+.addTODO  div:nth-child(1) {
+    width: 60%;
+}
+
+
+input[type=text], input[type=button] {
+    width: 100%;
+    display: block;
+    border-radius: 50px;
+    padding: 20px 10px;
+    margin-left: 20px;
+}
+
+select{
+    border-radius: 50px;
+    margin-left: 60px;
+}
+
+.checkedTodo {
+    opacity: 0.35;
+}
+
+.item {
+    margin: 10px 0 10px;
+    padding: 20px 10px;
+    font-size: 24px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: green;
+}
+
+.item input[type=checkbox] {
+    width: 24px;
+    height: 24px;
+    border-radius: 10px;
+}
+
+.item_icon1, .item_icon2, .item_icon3 {
+    width: 24px;
+    height: 24px;
+    margin: 3px;
+    float: right;
+}
+
+
+
+.item_icon:hover {
+    cursor: pointer;
+}
+
+.optblue {
+    background-color: rgb(41, 41, 248);
+}
+
+.optred {
+    background-color: rgb(248, 35, 35);
+}
+
+.optgreen {
+    background-color: rgb(56, 249, 34);
+}

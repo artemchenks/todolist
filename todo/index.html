@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header>Ayo, ToDoList!</header>
+<main>
+  <div class="addTODO">
+    <div>
+      <input type="text" id="addTitle">
+    </div>
+    <select id="addPrior">
+        <option value="1" class="optblue">синий</option>
+        <option value="2" class="optred">красный</option>
+        <option value="3" class="optgreen">зелёный</option>
+    </select>
+    <div>
+      <input type="button" id="addBtn" value="Добавить">
+    </div>
+  </div>
+  <div class="TODO"></div>
+  <div class="delTODO">
+    <input type="button" id="delBtn" value="Очистить всё">
+  </div>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
